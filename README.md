@@ -1,7 +1,7 @@
 # relax_disloc
 ## Simulating `Relax` displacements with dislocations
 
-These notebooks use postseismic displacement fields calculated using `Relax`[^1][^2] to constrain a distribution of slip on a network of dislocations representing the crust-mantle interface (CMI).
+These notebooks use postseismic displacement fields calculated using `Relax`[^1][^2] to constrain a distribution of slip on a network of dislocations representing the crust-mantle interface (CMI). This approach is a three-dimensional extension of that published in [_Meade et al._ (2022)](https://doi.org/10.1029/2022GL100266).
 
 The main notebooks are: 
 - [relax_disloc_param_sweep_final.ipynb](relax_disloc_param_sweep_final.ipynb): Estimates CMI slip from displacement fields arising from combinations of source fault dip, thickness of elastic layer, and viscosity
