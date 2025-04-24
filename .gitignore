@@ -19,5 +19,4 @@ __pycache__/
 *.msh
 .jupyter/desktop-settings.json
 .vscode/
-tutorials/
-output2_dipping/
+parameter_ranges/output_*
