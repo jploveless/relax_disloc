@@ -4,8 +4,8 @@
 These notebooks use postseismic displacement fields calculated using `Relax`[^1][^2] to constrain a distribution of slip on a network of dislocations representing the crust-mantle interface (CMI). This approach is a three-dimensional extension of that published in [_Meade et al._ (2022)](https://doi.org/10.1029/2022GL100266).
 
 The main notebooks are: 
-- [relax_disloc_param_sweep_final.ipynb](relax_disloc_param_sweep_final.ipynb): Estimates CMI slip from displacement fields arising from combinations of source fault dip, thickness of elastic layer, and viscosity
-- [relax_disloc_inter_final.ipynb](relax_disloc_inter_final.ipynb): Estimates slip on CMI and source fault elements from a composite displacement field representing postseismic and interseismic deformation
+- [relax_disloc_param_sweep.ipynb](relax_disloc_param_sweep.ipynb): Estimates CMI slip from displacement fields arising from combinations of source fault dip, thickness of elastic layer, and viscosity
+- [relax_disloc_inter.ipynb](relax_disloc_inter.ipynb): Estimates slip on CMI and source fault elements from a composite displacement field representing postseismic and interseismic deformation
 - [relax_disloc_chichi.ipynb](relax_disloc_chichi.ipynb): Simulates postseismic deformation models of [_Rousset et al._ (2012)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012JB009571)
 
 The first two notebooks require result files generated from a suite of `Relax` models. Once `Relax` is installed and ready to run, change to the `parameter_ranges` directory and run `sh run_all.sh`
