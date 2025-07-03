@@ -26,7 +26,4 @@ dependencies:
   - pip:
       - spherical_geometry
       - loguru
-      - okada_wrapper
-      - pygmt
       - gmsh
-      - ismember

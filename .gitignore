@@ -20,3 +20,6 @@ __pycache__/
 .jupyter/desktop-settings.json
 .vscode/
 parameter_ranges/output_*
+figures/
+datafiles/
+old_notebooks/

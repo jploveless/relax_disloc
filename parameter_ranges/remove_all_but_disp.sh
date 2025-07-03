@@ -1,4 +1,4 @@
-
+# Remove all unneeded files from output directories
 rm output_*/*.vtk
 rm output_*/*s1*.grd
 rm output_*/*s2*.grd
